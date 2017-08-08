@@ -52,7 +52,7 @@ public class MathExpressionEvaluator{
         "-" : Operation.twoOperandsFunction ({  $1 - $0  }),
         "*" : Operation.twoOperandsFunction ({  $1 * $0  }),
         "/" : Operation.twoOperandsFunction ({  $1 / $0  }),
-        "^" : Operation.twoOperandsFunction (     pow     ),
+        "^" : Operation.twoOperandsFunction ({pow($1, $0)}),
         
         "sin"   : Operation.singleOperandFunction( sin   ),
         "cos"   : Operation.singleOperandFunction( cos   ),
