@@ -129,7 +129,7 @@
                                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqy-WJ-1Rx">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="47.5"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <state key="normal" title="ASSING">
+                                                <state key="normal" title="ASSIGN">
                                                     <color key="titleColor" red="0.97784480809999996" green="0.98784003899999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>

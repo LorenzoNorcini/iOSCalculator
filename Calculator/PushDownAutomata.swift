@@ -38,6 +38,7 @@ struct Transition: Hashable{
 /**
  Indicates a possible state for the automata
 */
+
 struct State: Hashable{
     
     var hashValue: Int {
